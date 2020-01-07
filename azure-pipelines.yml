@@ -1,4 +1,10 @@
 # Maven
+- task: CmdLine@2
+  inputs:
+    script: |
+      echo Write your commands here
+      
+      echo Hello world
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
